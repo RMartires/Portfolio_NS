@@ -1,0 +1,134 @@
+<nav id="navbar">
+  <ul>
+  <li><a href="#wecome-section">Home</a></li>
+  <li><a href="#projects">projects</a></li>
+  <li><a href="#contacts">contact</a></li>
+  </ul>
+</nav>
+<section id="welcome-section">
+<h1>hello this is web developer</h1>
+ <p>a Rohit Martires</p>
+</section>
+ <section id="projects">
+   <a href="https://codepen.io/Rohit_Martires/pen/wLXmrg" target="_blank" class="project-tile">
+     <img class="picture" src="https://raw.githubusercontent.com/RMartires/Portfolio_NS/master/Untitled.png" alt="project1">
+     <p>Meme Generator</p>
+   </a>
+   <! next proj>
+   <a href="https://codepen.io/Rohit_Martires/pen/gOYgZxx" target="_blank" class="project-tile">
+     <img class="picture" src="https://raw.githubusercontent.com/RMartires/Portfolio_NS/master/Untitled2.png" alt="project1">
+     <p>HTML Form</p>
+   </a>
+   
+ </section>
+
+
+<section id="project">
+<div>
+  <h2>U can catch me on</h2>
+</div>
+  <ul>
+    <li><a>twitter
+      </a></li>
+    <li><a>Call</a></li>
+    <li><a>Email</a></li>
+  </ul>
+</section>
+
+
+
+
+
+body{
+  margin:0px
+}
+#welcome-section{
+  display:flex;
+  flex-direction:column;
+  background-color:#404040;
+  width:100%;
+  height:100vh;
+  align-items:center;
+  justify-content:center;
+}
+#welcome-section >h1{
+  font-size:40px;
+  color:#DEDFDF;
+  padding:10px;
+  text-align:center;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+#welcome-section > p {
+  font-size:25px;
+  color:grey;
+  text-align:center;
+  margin-top:0px
+}
+
+#projects{
+  display:flex;
+  flex-direction:row;
+  background-color:gray;
+  weidth:100%;
+  height:100vh;
+  flex-wrap:wrap;
+}
+.project-tile{
+  display:flex;
+  flex-direction:column;
+  background-color:gray;
+}
+.project-tile img{
+  width:250px;
+  height:200px;
+  padding:10px;
+  margin-bottom:0px;
+}
+.project-tile p{
+  text-align:center;
+  color:white;
+  font-size:21px;
+  margin-top:0px
+}
+#navbar{
+  background-color:teal;
+}
+#navbar > ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  margin:0px;
+  padding:10px;
+}
+#navbar > ul > li{
+  padding:5px;
+  list-style-type:none;
+  font-size:20px;
+}
+#navbar > ul > li{
+  padding:5px;
+  list-style-type:none;
+  font-size:20px;
+}
+#navbar > ul > li{
+  padding:5px;
+  list-style-type:none;
+  font-size:20px;
+}
+#navbar > ul > li{
+  padding:5px;
+  list-style-type:none;
+  font-size:20px;
+}
+
+#navbar > ul > li> a{
+  text-decoration:none;
+  color:white;
+}
+#project{
+  display:flex;
+  flex-direction:row;
+}
+
+
